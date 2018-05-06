@@ -5,13 +5,28 @@
 
 import crafttweaker.item.IIngredient;
 
-val brokenArray = [
+
+val rmArray = [
   <astikoor:carriage>,
   <astikoor:chariot>,
-  <betterwithmods:breeding_harness>,
   <charset:icon>,
+  <sereneseasons:ss_icon>,
+  <betterwithmods:fertile_farmland>,
 ] as IIngredient[];
 
-for key in brokenArray {
+for key in rmArray {
   mods.jei.JEI.removeAndHide(key, false);
+}
+
+val hiderray = [
+  <betterwithmods:wood_moulding>,
+  <betterwithmods:wood_corner>,
+  <betterwithmods:wood_siding>,
+  <betterwithmods:stone_moulding>,
+  <betterwithmods:stone_corner>,
+  <betterwithmods:stone_siding>,
+] as IIngredient[];
+
+for key in hideArray {
+  mods.jei.JEI.hide(key);
 }

@@ -3,6 +3,6 @@
 */
 
 recipes.addShaped("Saddle", <minecraft:saddle>,
- [[<betterwithmods:material:8>,null,null],
-  [<ore:hideTanned>,<ore:hideTanned>,<ore:hideTanned>],
-  [<betterwithmods:material:9>,null,<betterwithmods:material:8>]]);
+ [[null,null,null],
+  [<minecraft:leather>,<harvestcraft:wovencottonitem>,<minecraft:stick>],
+  [<minecraft:leather_leggings>,null,<minecraft:leather_leggings>]]);

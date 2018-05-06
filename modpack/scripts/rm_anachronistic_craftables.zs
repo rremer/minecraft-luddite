@@ -4,11 +4,17 @@
 
 import crafttweaker.item.IIngredient;
 
-val anachArray = [
-  <minecraft:jukebox>,
+/*
+  anochronistic items from mods
+  with config to disable them
+
   <storagedrawers:controller>,
   <storagedrawers:controllerslave>,
   <storagedrawers:compdrawers>,
+*/
+
+val anachArray = [
+  <minecraft:jukebox>,
   <agricraft:peripheral>,
 ] as IIngredient[];
 
