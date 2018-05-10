@@ -12,13 +12,6 @@ val rmArray = [
   <charset:icon>,
   <sereneseasons:ss_icon>,
   <betterwithmods:fertile_farmland>,
-] as IIngredient[];
-
-for key in rmArray {
-  mods.jei.JEI.removeAndHide(key, false);
-}
-
-val hiderray = [
   <betterwithmods:wood_moulding>,
   <betterwithmods:wood_corner>,
   <betterwithmods:wood_siding>,
@@ -27,6 +20,6 @@ val hiderray = [
   <betterwithmods:stone_siding>,
 ] as IIngredient[];
 
-for key in hideArray {
-  mods.jei.JEI.hide(key);
+for key in rmArray {
+  mods.jei.JEI.removeAndHide(key, false);
 }
