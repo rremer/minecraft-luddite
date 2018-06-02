@@ -2,4 +2,4 @@
   extend straw recipes
 */
 
-furnace.addRecipe(<biomesoplenty:plant_1>, <roots:straw>);
+furnace.addRecipe(<roots:straw>, <biomesoplenty:plant_1>);
