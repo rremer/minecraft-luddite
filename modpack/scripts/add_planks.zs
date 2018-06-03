@@ -2,7 +2,7 @@
   add plank conversions to oak
 */
 
-val planks = <minecraft:planks> | <thaumcraft:plank_greatwood> | <biomesoplenty:planks_0>;
+val planks = <minecraft:planks:*> | <thaumcraft:plank_greatwood> | <biomesoplenty:planks_0:*> | <rustic:planks:*>;
 
 
 for plank in planks.items{

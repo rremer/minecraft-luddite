@@ -16,6 +16,12 @@ import crafttweaker.item.IIngredient;
 val anachArray = [
   <minecraft:jukebox>,
   <agricraft:peripheral>,
+  <cookingforblockheads:oven>,
+  <cookingforblockheads:fridge>,
+  <cookingforblockheads:sink>,
+  <cookingforblockheads:counter>,
+  <cookingforblockheads:corner>,
+  <cookingforblockheads:toaster>,
 ] as IIngredient[];
 
 for key in anachArray {

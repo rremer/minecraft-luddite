@@ -2,8 +2,4 @@
   make the xp book cheaper
 */
 
-val xpbook = <xpbook:xp_book
-
-
-recipes.removeShapeed(xpbook);
-recipes.addShapeless(<minecraft:enchanted_book> * 1, [xpbook]);
+recipes.addShapeless(<xpbook:xp_book>.withTag({Contains: 0}) * 1, [<minecraft:enchanted_book:*>]);

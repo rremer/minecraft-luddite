@@ -6,5 +6,5 @@ val slimies = <harvestcraft:calamarirawitem> | <harvestcraft:frograwitem> | <har
 
 
 for slimy in slimies.items{
-  recipes.addShapeless(<minecraft:slime_ball> * 1, [<minecraft:dirt>, slimy]);
+  recipes.addShapeless(<minecraft:slime_ball> * 1, [slimy]);
 }
