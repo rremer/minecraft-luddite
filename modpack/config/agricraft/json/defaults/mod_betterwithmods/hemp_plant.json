@@ -68,16 +68,16 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "immersiveengineering:items/seed_hemp",
+    "seed_texture": "betterwithmods:items/seed_hemp",
     "plant_textures": [
-      "immersiveengineering:blocks/hemp_B0",
-      "immersiveengineering:blocks/hemp_B0",
-      "immersiveengineering:blocks/hemp_B1",
-      "immersiveengineering:blocks/hemp_B1",
-      "immersiveengineering:blocks/hemp_B2",
-      "immersiveengineering:blocks/hemp_B2",
-      "immersiveengineering:blocks/hemp_B3",
-      "immersiveengineering:blocks/hemp_B4"
+      "betterwithmods:blocks/hemp_stage_0",
+      "betterwithmods:blocks/hemp_stage_1",
+      "betterwithmods:blocks/hemp_stage_2",
+      "betterwithmods:blocks/hemp_stage_3",
+      "betterwithmods:blocks/hemp_stage_4",
+      "betterwithmods:blocks/hemp_stage_5",
+      "betterwithmods:blocks/hemp_stage_6",
+      "betterwithmods:blocks/hemp_stage_7"
     ]
   }
 }

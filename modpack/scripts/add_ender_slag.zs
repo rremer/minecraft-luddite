@@ -14,3 +14,4 @@ enderPearlOreDict.add(<betterwithmods:material:39>);
 # remove ender block, which could convert back and forth to pearls to generate
 # an infinite number of pearls
 mods.jei.JEI.removeAndHide(<betterwithmods:aesthetic:8>, false);
+mods.jei.JEI.removeAndHide(<minecraft:ender_pearl>, false);
