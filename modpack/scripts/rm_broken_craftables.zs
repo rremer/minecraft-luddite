@@ -18,6 +18,7 @@ val rmArray = [
   <betterwithmods:stone_moulding>,
   <betterwithmods:stone_corner>,
   <betterwithmods:stone_siding>,
+  <biomesoplenty:earth>,
 ] as IIngredient[];
 
 for key in rmArray {
