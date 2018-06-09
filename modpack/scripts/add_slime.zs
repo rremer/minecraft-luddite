@@ -2,7 +2,7 @@
   make slimeballs from various things
 */
 
-val slimies = <harvestcraft:calamarirawitem> | <harvestcraft:frograwitem> | <harvestcraft:eelrawitem> | <harvestcraft:okraitem> | <harvestcraft:oysterrawitem> ;
+val slimies = <harvestcraft:calamarirawitem> | <harvestcraft:frograwitem> | <harvestcraft:eelrawitem> | <harvestcraft:okraitem> | <harvestcraft:oysterrawitem> | <harvestcraft:snailrawitem> ;
 
 
 for slimy in slimies.items{
