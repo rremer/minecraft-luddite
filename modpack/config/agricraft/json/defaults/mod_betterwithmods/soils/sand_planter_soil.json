@@ -1,0 +1,28 @@
+{
+  "path": "mod_betterwithmods/soils/sand_planter_soil.json",
+  "enabled": true,
+  "id": "sand_planter",
+  "name": "Sand Planter",
+  "varients": [
+    {
+      "item": "betterwithmods:planter",
+      "meta": 5,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    },
+    {
+      "item": "betterwithmods:planter",
+      "meta": 8,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}
