@@ -4,7 +4,7 @@
 
   <groupId>org.rremer</groupId>
   <artifactId>minecraft-luddite</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>Luddite</name>
@@ -12,11 +12,26 @@
   <url>https://github.com/rremer/minecraft-luddite</url>
 
   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <server.gc_options>-XX:+UseG1GC</server.gc_options>
+    <server.xms_gb>4</server.xms_gb>
+    <server.xmx_gb>12</server.xmx_gb>
+    <server.forge_installer_name>${url.forge.installer.name}</server.forge_installer_name>
+    <server.forge_universal_name>${url.forge.universal.name}</server.forge_universal_name>
+
     <version.download-maven-plugin>1.4.0</version.download-maven-plugin>
 
     <version.lwjgl>2.9.4-nightly-20150209</version.lwjgl>
     <version.minecraft>1.12.2</version.minecraft>
     <version.minecraftforge>14.23.4.2707</version.minecraftforge>
+    <version.minecraftforge.full>${version.minecraft}-${version.minecraftforge}</version.minecraftforge.full>
+
+    <url.forge.target>${project.build.directory}/server</url.forge.target>
+    <url.forge.source>https://files.minecraftforge.net/maven/net/minecraftforge/forge</url.forge.source>
+    <url.forge.universal.name>forge-${version.minecraftforge.full}-universal.jar</url.forge.universal.name>
+    <url.forge.installer.name>forge-${version.minecraftforge.full}-installer.jar</url.forge.installer.name>
+    <url.forge.installer>/${version.minecraftforge.full}/${url.forge.installer.name}</url.forge.installer>
 
     <url.mods.target>${project.build.directory}/mods</url.mods.target>
     <url.mods.source>https://media.forgecdn.net/files</url.mods.source>
@@ -51,7 +66,7 @@
     <url.guide>/2544/43/Guide-API-1.12-2.1.5-60.jar</url.guide>
     <url.chameleon>/2450/900/Chameleon-1.12-4.1.3.jar</url.chameleon>
     <url.hwyla>/2545/475/Hwyla-1.8.25-B40_1.12.jar</url.hwyla>
-    <url.waystones>/2545/165/Waystones_1.12.2-4.0.33.jar</url.waystones>
+    <url.waystones>/2595/479/Waystones_1.12.2-4.0.54.jar</url.waystones>
     <url.giacomosbookshelf>/2500/80/GiacomosBookshelf-1.12.2-1.2.jar</url.giacomosbookshelf>
     <url.giacomosfoundry>/2496/84/GiacomosFoundry-1.12.2-1.3.13.jar</url.giacomosfoundry>
     <url.wailaharvestability>/2481/605/WailaHarvestability-mc1.12-1.1.12.jar</url.wailaharvestability>
@@ -109,6 +124,7 @@
     <url.forgeendertech>/2566/866/ForgeEndertech-1.12.2-4.3.6.1-build.0117.jar</url.forgeendertech>
     <url.adchimneys>/2566/651/AdChimneys-1.12.2-3.3.1.0-build.0116.jar</url.adchimneys>
     <url.quark>/2544/279/Quark-r1.4-123.jar</url.quark>
+    <url.twilightforest>/2561/393/twilightforest-1.12.2-3.7.424-universal.jar</url.twilightforest>
   </properties>
 
   <build>
@@ -125,22 +141,44 @@
         <artifactId>maven-assembly-plugin</artifactId>
         <executions>
           <execution>
+            <id>client-mmc</id>
             <phase>package</phase>
             <goals>
               <goal>single</goal>
             </goals>
+            <configuration>
+              <descriptor>src/assembly/client-mmc.xml</descriptor>
+              <finalName>${project.name}-${project.version}</finalName>
+            </configuration>
+          </execution>
+          <execution>
+            <id>server</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <descriptor>src/assembly/server.xml</descriptor>
+              <finalName>${project.name}-${project.version}</finalName>
+            </configuration>
           </execution>
         </executions>
-        <configuration>
-          <descriptor>src/assembly/bin.xml</descriptor>
-          <finalName>${project.name}-${project.version}</finalName>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>com.googlecode.maven-download-plugin</groupId>
         <artifactId>download-maven-plugin</artifactId>
         <version>${version.download-maven-plugin}</version>
         <executions>
+          <execution>
+            <id>url.forge.installer</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.forge.source}${url.forge.installer}</url>
+              <outputDirectory>${url.forge.target}</outputDirectory>
+            </configuration>
+          </execution>
           <execution>
             <id>url.charset-storagebarrels</id>
             <goals>
@@ -1018,6 +1056,16 @@
             </goals>
             <configuration>
               <url>${url.mods.source}${url.quark}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.twilightforest</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.twilightforest}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>

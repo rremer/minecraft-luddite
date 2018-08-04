@@ -4,6 +4,17 @@
 
 A Forge client/server modpack for Minecraft.
 
+## Installation
+
+Currently, this modpack is distributed as a [MultiMC] zip.
+
+1. [Download MultiMC] and install.
+2. Open MultiMC and and add login credentials
+3. Add by URL [MMC client release 1.0.0] 
+4. Launch!
+
+## Motivation
+
 The drive behind this modpack's development was largely to make a more approachable world for new players, while coaxing veterans to explore different kinds of gameplay then they're used to.
 
 Behaviors I found in my own gameplay (preferring modpacks with deep tech trees) which I specifically targetted for removal in this pack:
@@ -16,16 +27,12 @@ Behaviors I found in my own gameplay (preferring modpacks with deep tech trees) 
 
 Issues and pull requests are welcome, and I encourage you to fork and enjoy!
 
-## Installation
-
-Currently, this modpack is distributed as a [MultiMC] zip.
-
 ## Development
 
 This project is packed via a maven build:
 
 ```sh
-maven clean install
+mvn clean install
 ```
 
 ## Versioning
@@ -38,5 +45,16 @@ Versioning is semantic from the perspective of the client:
 
 ```PATCH``` update need only occur on the server.
 
+## Server installation
 
-[MuiltiMC]:https://multimc.org/
+Choose from the following pre-packaged releases:
+ * [server release 1.0.0]
+
+ You will find a ```start_server.sh``` script which will help you bootstrap the server. For self-provisioned cloud hosting, see [rremer/terraform-minecraft].
+
+
+[MultiMC]:https://multimc.org/
+[Download MultiMC]:https://multimc.org/#Download
+[MMC client release 1.0.0]:https://storage.googleapis.com/minecraft-luddite/1.0.0/Luddite-1.0.0-client-mmc.zip
+[server release 1.0.0]:https://storage.googleapis.com/minecraft-luddite/1.0.0/Luddite-1.0.0-server.zip
+[rremer/terraform-minecraft]:https://github.com/rremer/terraform-minecraft
