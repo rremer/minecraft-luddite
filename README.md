@@ -10,8 +10,10 @@ Currently, this modpack is distributed as a [MultiMC] zip.
 
 1. [Download MultiMC] and install.
 2. Open MultiMC and and add login credentials
-3. Add by URL [MMC client release 1.0.0] 
-4. Launch!
+3. Click "Add Instance" and select "Import from zip" on the left-hand side.
+4. Paste in this URL: [MMC client release 1.0.0] and hit <Enter> 
+5. When the download finishes, double-click 'Luddite-1.0.0-client-mmc'
+6. If you are not signed into a Mojang account, you will be promted for credentials
 
 ## Motivation
 
