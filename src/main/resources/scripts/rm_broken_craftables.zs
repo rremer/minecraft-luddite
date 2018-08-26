@@ -20,6 +20,7 @@ val rmArray = [
   <betterwithmods:stone_siding>,
   <biomesoplenty:earth>,
   <minecraft:fish>,
+  <quark:gunpowder_block>,
 ] as IIngredient[];
 
 for key in rmArray {
