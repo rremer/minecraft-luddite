@@ -36,6 +36,7 @@
     <url.mods.target>${project.build.directory}/mods</url.mods.target>
     <url.mods.source>https://media.forgecdn.net/files</url.mods.source>
 
+    <url.artisanworktables>/2598/498/artisanworktables-1.12.2-1.19.0-SNAPSHOT.10.jar</url.artisanworktables>
     <url.charset-storagebarrels>/2536/967/Charset-StorageBarrels-0.5.0.199.jar</url.charset-storagebarrels>
     <url.rustic>/2545/348/rustic-1.0.3.jar</url.rustic>
     <url.pams-harvestcraft>/2545/718/Pam%27s+HarvestCraft+1.12.2t.jar</url.pams-harvestcraft>
@@ -176,6 +177,16 @@
             <configuration>
               <url>${url.forge.source}${url.forge.installer}</url>
               <outputDirectory>${url.forge.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.artisanworktables</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.url.artisanworktables}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
           <execution>
