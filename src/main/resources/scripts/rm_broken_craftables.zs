@@ -14,6 +14,10 @@ val rmArray = [
   <biomesoplenty:earth>,
   <minecraft:fish>,
   <quark:gunpowder_block>,
+  <artisanworktables:design_pattern>,
+  <artisanworktables:toolbox>,
+  <artisanworktables:mechanical_toolbox>,
+  <darkutils:sneaky_bedrock>,
 ] as IIngredient[];
 
 for key in rmArray {
