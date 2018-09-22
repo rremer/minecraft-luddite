@@ -37,6 +37,8 @@
     <url.mods.source>https://media.forgecdn.net/files</url.mods.source>
 
     <url.artisanworktables>/2598/498/artisanworktables-1.12.2-1.19.0-SNAPSHOT.10.jar</url.artisanworktables>
+    <url.tconstruct>/2571/785/TConstruct-1.12.2-2.10.1.87.jar</url.tconstruct>
+    <url.mantle>/2550/550/Mantle-1.12-1.3.2.24.jar</url.mantle>
     <url.charset-storagebarrels>/2536/967/Charset-StorageBarrels-0.5.0.199.jar</url.charset-storagebarrels>
     <url.rustic>/2545/348/rustic-1.0.3.jar</url.rustic>
     <url.pams-harvestcraft>/2545/718/Pam%27s+HarvestCraft+1.12.2t.jar</url.pams-harvestcraft>
@@ -77,7 +79,6 @@
     <url.crafttweaker2>/2554/607/CraftTweaker2-1.12-4.1.8.jar</url.crafttweaker2>
     <url.enchantmentdescriptions>/2529/811/EnchantmentDescriptions-1.12.2-1.1.8.jar</url.enchantmentdescriptions>
     <url.controlling>/2522/248/Controlling-3.0.6.jar</url.controlling>
-    <url.betterwithmods>/2569/27/BetterWithMods-1.12-2.1.24.jar</url.betterwithmods>
     <url.ctm>/2519/601/CTM-MC1.12-0.2.3.12.jar</url.ctm>
     <url.hardcorebuoy>/2511/844/HardcoreBuoy-1.12-1.0.2.jar</url.hardcorebuoy>
     <url.solcarrot>/2484/559/solcarrot-1.12.1-1.2.0.jar</url.solcarrot>
@@ -590,16 +591,6 @@
             </configuration>
           </execution>
           <execution>
-            <id>url.betterwithmods</id>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>${url.mods.source}${url.betterwithmods}</url>
-              <outputDirectory>${url.mods.target}</outputDirectory>
-            </configuration>
-          </execution>
-          <execution>
             <id>url.ctm</id>
             <goals>
               <goal>wget</goal>
@@ -1066,6 +1057,26 @@
             </goals>
             <configuration>
               <url>${url.mods.source}${url.twilightforest}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.mantle</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.mantle}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.tconstruct</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.tconstruct}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
