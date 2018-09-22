@@ -45,7 +45,6 @@
     <url.artisanworktables>/2598/498/artisanworktables-1.12.2-1.19.0-SNAPSHOT.10.jar</url.artisanworktables>
     <url.tconstruct>/2571/785/TConstruct-1.12.2-2.10.1.87.jar</url.tconstruct>
     <url.mantle>/2550/550/Mantle-1.12-1.3.2.24.jar</url.mantle>
-    <url.gardenstuff>/2530/535/GardenStuff-1.12-2.1.1.jar</url.gardenstuff>
     <url.charset-storagebarrels>/2536/967/Charset-StorageBarrels-0.5.0.199.jar</url.charset-storagebarrels>
     <url.rustic>/2545/348/rustic-1.0.3.jar</url.rustic>
     <url.pams-harvestcraft>/2545/718/Pam%27s+HarvestCraft+1.12.2t.jar</url.pams-harvestcraft>
@@ -1144,16 +1143,6 @@
             </goals>
             <configuration>
               <url>${url.mods.source}${url.athenaeum}</url>
-              <outputDirectory>${url.mods.target}</outputDirectory>
-            </configuration>
-          </execution>
-          <execution>
-            <id>url.gardenstuff</id>
-            <goals>
-              <goal>wget</goal>
-            </goals>
-            <configuration>
-              <url>${url.mods.source}${url.gardenstuff}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
