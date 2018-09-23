@@ -1,0 +1,30 @@
+{
+  "list": [
+    {
+      "name": "bone",
+      "harvestLevel": 1,
+      "maxUses": 150,
+      "efficiency": 4.0,
+      "damage": 1.0,
+      "enchantability": 5,
+      "color": "fff6c8",
+      "shiny": false,
+      "ingredient": "ore:bone",
+      "langKey": "material.athenaeum.bone",
+      "oreDictKey": "artisansToolBone"
+    },
+    {
+      "name": "iron",
+      "harvestLevel": 2,
+      "maxUses": 250,
+      "efficiency": 6.0,
+      "damage": 2.0,
+      "enchantability": 14,
+      "color": "d4d4d4",
+      "shiny": true,
+      "ingredient": "ore:ingotIron",
+      "langKey": "material.athenaeum.iron",
+      "oreDictKey": "artisansToolIron"
+    }
+  ]
+}
