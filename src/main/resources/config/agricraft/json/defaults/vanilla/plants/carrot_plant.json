@@ -63,7 +63,9 @@
     "soils": [
       "farmland_loamy",
       "farmland_fertile",
-      "farmland_planter",
+      "farmland_fertilized_farmland_healthy",
+      "farmland_fertilized_farmland_rich",
+      "farmland_fertilized_farmland_stable",
       "farmland_soil"
     ],
     "conditions": []

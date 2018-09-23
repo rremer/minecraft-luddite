@@ -4,7 +4,7 @@
 
   <groupId>org.rremer</groupId>
   <artifactId>minecraft-luddite</artifactId>
-  <version>1.1.0-SNAPSHOT</version>
+  <version>2.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>Luddite</name>
@@ -49,7 +49,7 @@
     <url.rustic>/2545/348/rustic-1.0.3.jar</url.rustic>
     <url.pams-harvestcraft>/2545/718/Pam%27s+HarvestCraft+1.12.2t.jar</url.pams-harvestcraft>
     <url.fastleafdecay>/2463/272/FastLeafDecay-v14.jar</url.fastleafdecay>
-    <url.agricraft>/2546/468/agricraft-2.12.0-1.12.0-a3.jar</url.agricraft>
+    <url.agricraft>/2609/648/AgriCraft-2.12.0-1.12.0-a6.jar</url.agricraft>
     <url.biomesoplenty>/2549/659/BiomesOPlenty-1.12.2-7.0.1.2337-universal.jar</url.biomesoplenty>
     <url.storagedrawers>/2545/495/StorageDrawers-1.12.2-5.3.6.jar</url.storagedrawers>
     <url.stg>/2514/413/stg-1.11.2-1.1.2.jar</url.stg>
