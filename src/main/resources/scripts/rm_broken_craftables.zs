@@ -18,6 +18,14 @@ val rmArray = [
   <artisanworktables:toolbox>,
   <artisanworktables:mechanical_toolbox>,
   <darkutils:sneaky_bedrock>,
+  <redstoneplusplus:debug>,
+  <redstoneplusplus:rotator_moving>,
+  <redstoneplusplus:rotator_head>,
+  <redstoneplusplus:dummy_hopper>,
+  <redstoneplusplus:dummy_compass>,
+  <redstoneplusplus:dummy_clock>,
+  <redstoneplusplus:dummy_compass_hover>,
+  <redstoneplusplus:dummy_clock_hover>,
 ] as IIngredient[];
 
 for key in rmArray {
