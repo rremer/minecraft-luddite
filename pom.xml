@@ -24,7 +24,7 @@
 
     <version.lwjgl>2.9.4-nightly-20150209</version.lwjgl>
     <version.minecraft>1.12.2</version.minecraft>
-    <version.minecraftforge>14.23.4.2749</version.minecraftforge>
+    <version.minecraftforge>14.23.4.2707</version.minecraftforge>
     <version.minecraftforge.full>${version.minecraft}-${version.minecraftforge}</version.minecraftforge.full>
 
     <url.forge.target>${project.build.directory}/server</url.forge.target>
@@ -36,7 +36,7 @@
     <url.mods.target>${project.build.directory}/mods</url.mods.target>
     <url.mods.source>https://media.forgecdn.net/files</url.mods.source>
 
-    <url.forestry>/2618/955/forestry_1.12.2-5.8.1.344.jar</url.forestry>
+    <url.mystcraft>/2589/45/mystcraft-1.12.2-0.13.6.00.jar</url.mystcraft>
     <url.athenaeum>/2545/134/athenaeum-1.12.2-1.14.0.jar</url.athenaeum>
     <url.darkutilities>/2575/575/DarkUtils-1.12.2-1.8.211.jar</url.darkutilities>
     <url.notenoughscaffold>/2581/687/NotEnoughScaffold-1.12.2-1.8.jar</url.notenoughscaffold>
@@ -1148,12 +1148,12 @@
             </configuration>
           </execution>
           <execution>
-            <id>url.forestry</id>
+            <id>url.mystcraft</id>
             <goals>
               <goal>wget</goal>
             </goals>
             <configuration>
-              <url>${url.mods.source}${url.forestry}</url>
+              <url>${url.mods.source}${url.mystcraft}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
