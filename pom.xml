@@ -36,6 +36,9 @@
     <url.mods.target>${project.build.directory}/mods</url.mods.target>
     <url.mods.source>https://media.forgecdn.net/files</url.mods.source>
 
+    <url.potionfingers>/2491/881/PotionFingers-r1.0-2.jar</url.potionfingers>
+    <url.cosmeticarmorreworked>/2595/679/CosmeticArmorReworked-1.12.2-v3.jar</url.cosmeticarmorreworked>
+    <url.villagertrades>/2441/265/VillagerTrades-1.12-0.6.4.jar</url.villagertrades>
     <url.mystcraft>/2589/45/mystcraft-1.12.2-0.13.6.00.jar</url.mystcraft>
     <url.athenaeum>/2545/134/athenaeum-1.12.2-1.14.0.jar</url.athenaeum>
     <url.darkutilities>/2575/575/DarkUtils-1.12.2-1.8.211.jar</url.darkutilities>
@@ -1154,6 +1157,36 @@
             </goals>
             <configuration>
               <url>${url.mods.source}${url.mystcraft}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.potionfingers</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.potionfingers}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.cosmeticarmorreworked</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.cosmeticarmorreworked}</url>
+              <outputDirectory>${url.mods.target}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>url.villagertrades</id>
+            <goals>
+              <goal>wget</goal>
+            </goals>
+            <configuration>
+              <url>${url.mods.source}${url.villagertrades}</url>
               <outputDirectory>${url.mods.target}</outputDirectory>
             </configuration>
           </execution>
