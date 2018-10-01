@@ -1,0 +1,27 @@
+{ 
+	Profession: "vtt:redstoner", 
+	Career:"jeweler",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:1,max:10}},sell:{id:"biomesoplenty:gem",Damage:0,Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:1,max:10}},sell:{id:"biomesoplenty:gem",Damage:1,Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:1,max:10}},sell:{id:"biomesoplenty:gem",Damage:2,Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:1,max:10}},sell:{id:"biomesoplenty:gem",Damage:3,Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:1,max:10}},sell:{id:"biomesoplenty:gem",Damage:4,Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:1,max:10}},sell:{id:"biomesoplenty:gem",Damage:5,Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:1,max:10}},sell:{id:"biomesoplenty:gem",Damage:6,Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:3,max:5}},sell:{id:"minecraft:gold_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"tconstruct:materials",Damage:16,Count:1},sell:{id:"minecraft:emerald",Count:20}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:15,max:25}},sell:{id:"potionfingers:ring",Damage:1,Count:1,tag:{effect:"minecraft:speed"}}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:15,max:25}},sell:{id:"potionfingers:ring",Damage:1,Count:1,tag:{effect:"minecraft:haste"}}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:15,max:25}},sell:{id:"potionfingers:ring",Damage:1,Count:1,tag:{effect:"minecraft:jump_boost"}}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:32,max:38}},sell:{id:"potionfingers:ring",Damage:1,Count:1,tag:{effect:"minecraft:strength"}}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:64},sell:{id:"potionfingers:ring",Damage:1,Count:1,tag:{effect:"minecraft:resistence"}}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:128},sell:{id:"potionfingers:ring",Damage:1,Count:1,tag:{effect:"minecraft:regeneration"}}, CareerLevel:3}
+
+		]
+	}
+
+}

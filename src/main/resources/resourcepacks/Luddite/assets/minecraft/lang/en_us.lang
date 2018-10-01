@@ -1,12 +1,9 @@
 # villager trades compatibility
-entity.Villager.glassblower.name=Glassblower
-entity.Villager.archivist.name=Archivist
-entity.Villager.scrivener.name=Schrivener
-
-# villager trades compatibility
-entity.Villager.glassblower=Glassblower
 entity.Villager.archivist=Archivist
+entity.Villager.glassblower=Glassblower
+entity.Villager.jeweler=Jeweler
 entity.Villager.scrivener=Scrivener
+entity.Villager.stonemason=Stonemason
 
 # mystcraft compatibility
 fluid.fiermetal.name=Molten Fiery Metal
