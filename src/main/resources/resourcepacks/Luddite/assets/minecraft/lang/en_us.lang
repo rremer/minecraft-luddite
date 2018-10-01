@@ -1,0 +1,16 @@
+# villager trades compatibility
+entity.Villager.glassblower.name=Glassblower
+entity.Villager.archivist.name=Archivist
+entity.Villager.scrivener.name=Schrivener
+
+# villager trades compatibility
+entity.Villager.glassblower=Glassblower
+entity.Villager.archivist=Archivist
+entity.Villager.scrivener=Scrivener
+
+# mystcraft compatibility
+fluid.fiermetal.name=Molten Fiery Metal
+fluid.knightmetal.name=Molten Knightmetal
+tile.fluidblockliquidstarlight.name=Liquid Starlight
+tile.null.name=Unknown
+tile.twilightforest.fiery_essence.name=Fiery Essence

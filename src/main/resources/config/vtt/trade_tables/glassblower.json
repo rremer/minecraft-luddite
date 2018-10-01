@@ -1,0 +1,21 @@
+{ 
+	Profession:"vtt:brewer",
+	Career:"glassblower",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"minecraft:sand",Count:{min:5,max:8}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:1,max:2}},sell:{id:"minecraft:glass",Count:8}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:25,max:35}},sell:{id:"astralsorcery:itemcraftingcomponent",Damage:3,Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:25,max:35}},sell:{id:"astralsorcery:itemcoloredlens",Damage:0,Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:25,max:35}},sell:{id:"astralsorcery:itemcoloredlens",Damage:1,Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:25,max:35}},sell:{id:"astralsorcery:itemcoloredlens",Damage:2,Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:25,max:35}},sell:{id:"astralsorcery:itemcoloredlens",Damage:3,Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:25,max:35}},sell:{id:"astralsorcery:itemcoloredlens",Damage:4,Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:25,max:35}},sell:{id:"astralsorcery:itemcoloredlens",Damage:5,Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:30,max:50}},sell:{id:"astralsorcery:blocklens",Count:1,tag:{astralsorcery:{crystalProperties:{collectiveCapability:25,size:100,fract:0,purity:25,sizeOverride:-1}}}}, CareerLevel:3}
+
+		]
+	}
+}
