@@ -12,7 +12,7 @@
 			{action:"add", buy:{id:"minecraft:emerald",Count:{min:5,max:15}},sell:{id:"ebwizardry:blank_scroll",Count:1}, CareerLevel:2},
 			{action:"add", buy:{id:"minecraft:emerald",Count:{min:2,max:5}},sell:{id:"mystcraft:vial",Count:1}, CareerLevel:2},
 			{action:"add", buy:{id:"minecraft:emerald",Count:{min:15,max:20}},sell:{id:"mystcraft:unlinkedbook",Count:1}, CareerLevel:3},
-			{action:"add", buy:{id:"minecraft:emerald",Count:{min:15,max:20}},sell:{id:"astralsorcery:itemcraftingcomponent}, Damage:5, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:15,max:20}},sell:{id:"astralsorcery:itemcraftingcomponent",Damage:5,Count:1},CareerLevel:3},
 			{action:"add", buy:{id:"minecraft:emerald",Count:{min:15,max:20}},sell:{id:"ebwizardry:identification_scroll",Count:1}, CareerLevel:3}
 
 		]

@@ -4,6 +4,7 @@ entity.Villager.glassblower=Glassblower
 entity.Villager.jeweler=Jeweler
 entity.Villager.scrivener=Scrivener
 entity.Villager.stonemason=Stonemason
+entity.Villager.baker=Baker
 
 # mystcraft compatibility
 fluid.fiermetal.name=Molten Fiery Metal

@@ -37,6 +37,12 @@
         <exclude>MouseTweaks*</exclude>
         <exclude>CTM*</exclude>
         <exclude>supersoundmuffler*</exclude>
+        <exclude>BackTools*</exclude>
+        <exclude>ChunkAnimator*</exclude>
+        <exclude>jeivillagers*</exclude>
+        <exclude>ThaumicJEI*</exclude>
+        <exclude>JustEnoughResources*</exclude>
+        <exclude>ctgui*</exclude>
       </excludes>
     </fileSet>
     <fileSet>
