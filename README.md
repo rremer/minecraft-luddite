@@ -16,7 +16,7 @@ Currently, this modpack is distributed as a [MultiMC] zip.
 6. In the Accounts setting page, click on "Add"
 7. Enter your Mojang login credentials
 8. On the top-left of the MultiMC window, click on "Add Instance" and "Import from Zip"
-9. Paste in this URL: [MMC client release 1.0.1] and click "OK"
+9. Paste in this URL: [MMC client release 2.0.0] and click "OK"
 10. When the download finishes, double-click 'Luddite-1.0.1-client-mmc'
 
 ## Motivation
@@ -54,6 +54,7 @@ Versioning is semantic from the perspective of the client:
 ## Server installation
 
 Choose from the following pre-packaged releases:
+ * [server release 2.0.0]
  * [server release 1.0.1]
 
  You will find a ```start_server.sh``` script which will help you bootstrap the server. For self-provisioned cloud hosting, see [rremer/terraform-minecraft].
@@ -61,6 +62,7 @@ Choose from the following pre-packaged releases:
 
 [MultiMC]:https://multimc.org/
 [Download MultiMC]:https://multimc.org/#Download
-[MMC client release 1.0.1]:https://storage.googleapis.com/minecraft-luddite/1.0.1/Luddite-1.0.1-client-mmc.zip
+[MMC client release 2.0.0]:https://storage.googleapis.com/minecraft-luddite/2.0.0/Luddite-2.0.0-client-mmc.zip
+[server release 2.0.0]:https://storage.googleapis.com/minecraft-luddite/2.0.0/Luddite-2.0.0-server.zip
 [server release 1.0.1]:https://storage.googleapis.com/minecraft-luddite/1.0.1/Luddite-1.0.1-server.zip
 [rremer/terraform-minecraft]:https://github.com/rremer/terraform-minecraft
